@@ -11,6 +11,8 @@ builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 builder.Services.AddScoped<FieldRepository>();
 builder.Services.AddScoped<OwnerRepository>();
+builder.Services.AddScoped<Field_ServicesRepository>();
+builder.Services.AddScoped<ServiceRepository>();
 
 //builder.Services.AddScoped<OwnerModel>();
 
