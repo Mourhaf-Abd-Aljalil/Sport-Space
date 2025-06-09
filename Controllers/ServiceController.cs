@@ -39,6 +39,7 @@ namespace SportSpace.Controllers
 
         }
         /*
+        
         [HttpPost("AddNewService")]
         public string AddNewService(string ServiceName, decimal Cost)
         {
@@ -56,8 +57,8 @@ namespace SportSpace.Controllers
 
 
         }
+       */
 
-        */
         [HttpPut("UpdateService")]
         public string UpdateService(int ServiceID, string ServiceName, decimal Cost)
         {

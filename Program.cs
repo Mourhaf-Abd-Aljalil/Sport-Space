@@ -13,6 +13,8 @@ builder.Services.AddScoped<FieldRepository>();
 builder.Services.AddScoped<OwnerRepository>();
 builder.Services.AddScoped<Field_ServicesRepository>();
 builder.Services.AddScoped<ServiceRepository>();
+builder.Services.AddScoped<OffersRepository>();
+
 
 //builder.Services.AddScoped<OwnerModel>();
 

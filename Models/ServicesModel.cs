@@ -21,9 +21,9 @@ namespace SportSpaceDataAccessLayer.Models
 
         public ServicesModel( string ServiceName , decimal ServiceCost)
         {
-            Service_ID = -1;
-            Service_Name = Service_Name;
-            Service_Cost = Service_Cost;
+           
+            this.Service_Name = Service_Name;
+            this.Service_Cost = Service_Cost;
         }
 
     }

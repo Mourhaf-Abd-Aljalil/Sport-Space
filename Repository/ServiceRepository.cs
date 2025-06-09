@@ -24,13 +24,14 @@ namespace SportSpaceBussinesLayer.Repository
             else
                 return null;
         }
-       /* public bool AddNewService(ServicesModel Service)
+        /*
+        public bool AddNewService(ServicesModel Service)
         {
             Service.Service_ID = ServicesData.AddNewService(Service);
             return (Service.Service_ID != -1);
         }
-       */
-
+        */
+       
         public bool UpdateService(ServicesModel Service)
         {
             return ServicesData.UpdateService(Service);

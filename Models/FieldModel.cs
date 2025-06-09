@@ -33,9 +33,9 @@ namespace SportSpaceDataAccessLayer.Models
         public FieldModel(int FieldID, string FieldNamet, int OwnerID, string Location, string FieldTypet, int Capacity)
         {
             this.FieldID = FieldID;
-            FieldName = FieldNamet;
+            this.FieldName = FieldNamet;
             this.Location = Location;
-            FieldType = FieldTypet;
+            this.FieldType = FieldTypet;
             this.Capacity = Capacity;
             this.OwnerID = OwnerID;
 
